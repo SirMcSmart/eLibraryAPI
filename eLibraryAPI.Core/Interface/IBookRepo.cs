@@ -9,5 +9,11 @@ namespace eLibraryAPI.Core.Interface
     {
         List<Book> GetAllBooks();
         Book GetBookById(int Id);
+        void CraeteBook(Book bk);
+        bool SaveChanges();
+
+        void UpdatePutBook(Book bk);
+
+        void DeleteBook(Book bk);
     }
 }
